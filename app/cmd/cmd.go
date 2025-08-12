@@ -14,7 +14,7 @@ func SetUpFiber() *fiber.App {
 	}
 
 	app := fiber.New(fiber.Config{
-		AppName:            "Language Detector",
+		AppName:            os.Getenv("APP_NAME"),
 		EnableIPValidation: IPValidation,
 	})
 	return app
