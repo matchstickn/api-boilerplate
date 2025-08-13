@@ -10,10 +10,10 @@ import (
 // To regenerate the swagger docs run:
 // swag init -g app/controller/controller.go -o ./app/docs
 
-// @title Language Detector
+// @title APINAMEORWHATEVER
 // @version 1.0
-// @description Simple API to detect languages of text fast
-// @host localhost:4000
+// @description Whatever you want
+// @host localhost:PORT
 // @BasePath /api/v1
 func SetUp(app *fiber.App) {
 	SetUpFiberMiddleware(app)
